@@ -1,4 +1,4 @@
-package PracticeSetI;
+package PracticeSetI.Codeforces;
 import java.util.Scanner;
 
 public class nextround {

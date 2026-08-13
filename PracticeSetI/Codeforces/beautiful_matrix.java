@@ -1,4 +1,4 @@
-package PracticeSetI;
+package PracticeSetI.Codeforces;
 import java.util.*;
 public class beautiful_matrix {
     public static void main(String[] args){
