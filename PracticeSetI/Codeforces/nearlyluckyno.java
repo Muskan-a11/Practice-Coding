@@ -1,3 +1,4 @@
+package PracticeSetI.Codeforces;
 import java.util.*;
 class nearlyluckyno{
     public  static void main(String[] args){
@@ -14,17 +15,19 @@ class nearlyluckyno{
         if(count == 0) 
             {
             System.out.println("No");
+              sc.close();
               return;
             }
         while(count > 0){
             int digit = count % 10;
             if(digit != 4 && digit != 7){
                 System.out.println("No");
-                break;
+                sc.close();
+                return;
             }
             count = count /10;
         }
         System.out.println("Yes");
         sc.close();
         }
-    }git 
+    }
